@@ -1,0 +1,77 @@
+	<!doctype html>
+  <!--Jean Shirimpaka-->
+		<html>
+			<head>
+				<meta charset="utf-8">
+				<title>Exercise: Forms,List and Buttons</title>
+
+			</head>
+
+
+			<style>
+			 body {background-color: powderblue;}
+				 h1   {color: blue;}
+				 p    {color: black;}
+			 </style>
+
+
+			<body>
+
+				<h1 style="color:green;">
+
+					<b>	Restaurant Review Form </h1>
+
+					</b>
+
+
+				<hr width="100%" align="left" color="black">
+
+				<div align="left">
+
+
+<!--Form starts here-->
+		<form action="http://kraigh.com/cse104/reviews.php" method="post">
+
+			 Name:<input type="text" name="name">
+
+			 <p></p>
+			 E-mail: <input type="email" name="email">
+
+			 <p></p>
+			 <b>Menu: </br>
+
+			 <select name="menu" multiple="multiple">
+				<option value="steak" selected="selected">steak</option>
+				  <option value="chiken">chiken</option>
+			   <option value="vegetarian">vegetarian</option>
+			</select>
+
+			<p></p>
+			<b>Rating: </br>
+			<input type="radio" name="rating" value="1"/> 1
+			<br />
+			<input type="radio" name="rating" value="2" /> 2
+			<br />
+			<input type="radio" name="rating" value="3"/> 3
+			<br />
+			<input type="radio" name="rating" value"4"/> 4
+			<br />
+			<input type="radio" name="rating" value="5"/> 5
+
+			<p></p>
+			<br>Greeted when: </br>
+
+			<input type="checkbox" name="greeted[]" value="Entered"/>Entering
+			<br />
+			<input type="checkbox" name="greeted[]" value="Exited"/>Exiting
+
+			<p></p>
+	    <br> Comments: </br>
+	    <textarea name="comments"></textarea>
+
+	    <br > </br>
+	    <input type="submit" name="submit">
+
+	  </form>
+	</body>
+	</html>
