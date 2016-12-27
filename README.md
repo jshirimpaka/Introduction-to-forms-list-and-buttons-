@@ -2,7 +2,8 @@
 
 For this exercise, I create a simple form that allows a user to submit a review for a restaurant based on the following specifications:
 
-* The form must submit to the URL `http://kraigh.com/cse104/reviews.php` using the method `post`.
+* The form must submit to the URL using the method `post`. I use the server's url `http://kraigh.com/cse104/reviews.php` 
+* that I used to be given when I was taking the related course.
 
 * The form must have two fieldsets- one for name and email fields, and one for the review fields.
 
